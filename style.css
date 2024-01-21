@@ -1,0 +1,534 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+header{
+    position: sticky;
+    top:0px;
+    background-color: black;
+    z-index: 1;
+
+}
+.nav{
+    width: 90%;
+    height: 20%;
+      top:25px;
+      left:40px
+
+}
+.navbar{
+    background-color: black;
+    width: 100%;
+    height: 100%;
+    justify-content: space-around;
+    display: flex;
+    align-items: center;
+}
+.logo{
+    width: 30%;
+    color: yellow;
+    font-family: "Grape Nuts", cursive;
+      font-weight: 400;
+      font-style: normal;
+      text-transform:uppercase;
+}
+.menu>ul{
+    display: flex;
+    justify-content:center ;
+    align-items: center; 
+    gap:50px;
+    list-style: none; 
+}
+.menu{
+    display: flex;
+    justify-content:center ;
+    align-items: center;
+    width: 70%;;}
+.link{
+    text-decoration: none;
+color: white;
+font-size: larger;
+}
+.link:hover{
+    color: yellow;
+}
+.littlemenu{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    width:80px;
+height: 40px;
+color: white;
+border-radius: 20%;
+border:5px solid gray;
+
+}
+
+.littlemenu>i{
+    font-size: 30px;
+}
+
+.yellow{
+    color: yellow;
+}
+.littlemenucontainer{
+    height: 5%;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    flex-direction: column;
+margin-top: 5%;
+visibility: hidden;
+box-sizing: border-box;
+}
+.littlemenuitem>ul{
+    display: flex;
+    justify-content:center ;
+    align-items: center; 
+  flex-direction:column;
+    list-style: none; 
+  
+}
+.littlemenuitem{
+    display: none;
+}
+.littlemenucontainer:hover .littlemenuitem{
+   display: block;
+}
+.littlelink{
+    text-decoration: none;
+    color: antiquewhite;   
+}
+.littlelink:hover{
+    color: yellow;
+}
+
+.lp{
+    background-image: url(https://startbootstrap.github.io/startbootstrap-agency/assets/img/header-bg.jpg);
+    height: 550px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+align-items: center;
+justify-content: center;
+gap:10px;
+
+}
+.ourstudio{
+color: white;
+font-style: italic;
+font-size: 20px;
+}
+.lpworlds{
+    color: white;
+font-size: 30px;
+}
+.buttonlp{
+    width:10%;
+    height: 5%;
+}
+.buttonlp>button{
+    width:100%;
+    height: 100%;
+    background-color: orange;
+    color: white;
+    border-radius:10px;
+    font-size: medium;
+    margin-top: 10%;
+}
+.advantage{
+    padding-left: 40px;
+        height: max-content;
+        box-sizing: border-box;
+        margin: 3% 0 0 0;
+    }
+    .responsive{
+        width: 20%;
+        display: inline-block;
+        margin-left: 7%;
+    }
+    .responsiveinfo{
+        
+        width: 100%;
+    }
+    .responsiveinfo>h1{
+        display: inline-block;
+        margin-left: 15%;
+    }
+    .bootstrapinfo>h1{
+        display: inline-block;
+        margin-left: 15%;
+    }
+    .useinfo>h1{
+        display: inline-block;
+        margin-left: 18%;
+    }
+    .bootstrap{
+        margin-left: 12%;
+        width: 25%;
+        display: inline-block;
+    }
+    .bootstrapinfo{
+        width: 100%;
+    }
+    .use{
+        margin-left: 8%;
+        width: 25%;
+        display: inline-block;  
+        box-sizing: border-box;
+        margin-left: 10%;
+    }
+    .useinfo{
+        width: 100%;
+    }
+    
+    
+    .bootstrapicon{
+        width: 70px;
+    height: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: yellow;
+    color: azure;
+    font-size: 30px;
+
+    border-radius: 50%;
+    margin-left: 30%;
+    }
+.responsiveicon{
+    width: 70px;
+    height: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: yellow;
+    color: azure;
+    font-size: 30px;
+
+    border-radius: 50%;
+    margin-left: 30%;
+}
+.useicon{
+    width: 70px;
+height: 70px;
+display: flex;
+justify-content: center;
+align-items: center;
+background-color: yellow;
+color: azure;
+font-size: 30px;
+
+border-radius: 50%;
+margin-left: 30%;
+}
+.services{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-bottom: 3%;
+}
+.portfolio{
+    margin-top: 5%;
+    height: 100%;
+}
+.portfolioworld{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-bottom: 5%;
+}
+.portfolioworld>p{
+    font-style: italic;
+}
+.cards{
+display: flex;
+justify-content: space-around;
+gap:3%;
+height: 100%;
+flex-wrap: wrap;
+}
+.cardimg{
+    height: 400px;
+    background-image: url(https://startbootstrap.github.io/startbootstrap-agency/assets/img/portfolio/1.jpg
+    );
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.card{
+    padding-top: 3%;
+   position: relative;
+    width:30%;
+    height: 20%;
+    display: flex;
+    flex-direction: column;
+}
+.hoverimg{
+    overflow: hidden;
+    height: 400px;
+    background-color: yellow;
+    position: absolute;
+    width: 100%;
+    z-index: 1;
+    font-size: 250px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+opacity: 0;}
+.hoverimg:hover{
+    opacity: 0.8;
+}
+.cardinfo{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+   height: 100px;
+   background-color: aliceblue;
+}
+.cardimg1{
+    height: 400px;
+    background-image: url(https://startbootstrap.github.io/startbootstrap-agency/assets/img/portfolio/2.jpg
+    );
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.cardimg2{
+    height: 400px;
+    background-image: url(	https://startbootstrap.github.io/startbootstrap-agency/assets/img/portfolio/3.jpg
+    );
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.cardimg3{
+    background-image: url(https://startbootstrap.github.io/startbootstrap-agency/assets/img/portfolio/4.jpg
+    );
+    height: 400px;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.cardimg4{
+    background-image: url(https://startbootstrap.github.io/startbootstrap-agency/assets/img/portfolio/5.jpg
+    );
+    height: 400px;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.cardimg5{
+    background-image: url(https://startbootstrap.github.io/startbootstrap-agency/assets/img/portfolio/6.jpg
+    );
+    height: 400px;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+@media screen and (max-width:1200px) {
+    .lp{
+        height: 300px;
+
+    }
+    .buttonlp{
+height: 10%;
+    }
+    .bootstrapinfo>h1{
+        margin-left: 10%;
+        width: 90%;
+        display: inline-block;
+    }
+    .hoverimg{
+        height: 300px;
+    }
+    .cardimg{
+        height: 300px;
+    }
+    .cardimg1{
+        height: 300px; 
+    }
+    .cardimg2{
+        height: 300px;
+    }
+    .cardimg3{
+        height: 300px;
+    }
+    .cardimg4{
+        height: 300px;
+    }
+    .cardimg5{
+        height: 300px;
+    }
+    .card{
+        padding-top:2% ;
+        gap:2%;
+    }
+}
+
+@media screen and (max-width:992px){
+    
+    .menu{
+        margin-left: 20%;
+    width: 30%;
+}
+.logo{
+    font-size: 10px
+}
+.buttonlp>button{
+    font-size: small;
+}
+.bootstrapinfo{
+    font-size: 10px;
+}
+.useinfo{
+    font-size: 10px;  
+}
+.responsiveinfo{
+    font-size: 10px;
+}
+.col-s-4{
+    width:20%;
+   
+}
+
+.responsiveinfo>h1{
+    display: inline-block;
+    margin-bottom: 15%;
+}
+.cardimg{
+    height: 250px;
+}
+.cardimg1{
+    height: 250px; 
+}
+.cardimg2{
+    height: 250px;
+}
+.cardimg3{
+    height: 250px;
+}
+.cardimg4{
+    height: 250px;
+}
+.cardimg5{
+    height: 250px;
+}
+.card{
+    padding-top:2% ;
+    gap:1.5%;
+}
+.hoverimg{
+    height: 250px;
+}
+}
+    @media screen and (max-width:768px){
+        .buttonlp>button{
+            font-size: 10px;
+        }
+        .link{
+            font-size: medium;
+        }
+        .menu>ul{
+            gap: 20px;
+        }
+        .cardimg{
+            height: 150px;
+        }
+        .cardimg1{
+            height: 150px; 
+        }
+        .cardimg2{
+            height: 150px;
+        }
+        .cardimg3{
+            height: 150px;
+        }
+        .cardimg4{
+            height: 150px;
+        }
+        .cardimg5{
+            height: 150px;
+        }
+        .hoverimg{
+            height: 150px;
+        }    
+    }
+    
+@media screen and (max-width:600px) {
+    .buttonlp{
+        height: 15%;
+        width: 30%;
+            }
+    .lp{
+        height: 200px;
+
+    }
+    .lpworlds{
+        font-size: 20px;
+    }
+    .buttonlp>button{
+        font-size: 10px;
+    }
+    .littlemenucontainer{
+        visibility: visible;
+        margin-bottom:  5%;
+    }
+  .menu{
+    visibility: hidden;
+  }  
+ 
+  .logo{
+    font-size: 10px;
+    width: 40%;
+  }
+  .col-s-6{
+    width: 50%;
+  }
+  .bootstrapinfo{
+   margin-bottom: 10px;}
+.useinfo{
+    margin-bottom: 10px;
+}
+.responsiveinfo{
+    margin-bottom: 10px;
+}
+.bootstrapinfo>h1{
+    margin-left: 20%;}
+ .useinfo>h1{
+    margin-left: 30%;
+ }
+ .responsiveinfo>h1{
+    margin-left: 20%;
+ }
+ .advantagemain{
+    margin-left: 28%;
+ }
+ .cardimg{
+    height: 200px;
+}
+.cardimg1{
+    height: 200px; 
+}
+.cardimg2{
+    height: 200px;
+}
+.cardimg3{
+    height: 200px;
+}
+.cardimg4{
+    height: 200px;
+}
+.cardimg5{
+    height: 200px;
+}    
+.card{
+    width:48%;
+}
+.hoverimg{
+    height: 200px;
+}
+}
